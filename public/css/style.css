@@ -1,0 +1,101 @@
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  background-color: #435b66;
+  color: white;
+}
+.logos {
+  background-color: #2d4356;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos img {
+  padding: 5px;
+  width: 150px;
+}
+h1 {
+  font-size: 24px;
+  color: white;
+}
+h2 {
+  font-size: 20px;
+  color: white;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  padding: 50px;
+  background-color: #2d4356;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.title a {
+  margin-left: 10px;
+}
+.song-list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.song-list li {
+  width: 20%;
+  margin: 0 10px 10px 0;
+  padding: 10px;
+  background-color: #182747;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.song-list img {
+  width: 100%;
+  border-radius: 10px;
+}
+.detail {
+  padding: 0 5px;
+}
+.song-title {
+  color: white;
+  font-weight: bold;
+}
+.artist {
+  color: white;
+}
+.add-song-input {
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+}
+
+.add-song-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .song-list li {
+    width: 25%;
+  }
+}
+.container-form {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+  padding: 50px;
+  background-color: #2d4356;
+}
